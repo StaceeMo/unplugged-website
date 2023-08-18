@@ -231,9 +231,17 @@ footer .social-icons {
 }
 
 footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -624,7 +632,7 @@ input[type=button] {
       width: 65%;
     }
 
-    .footer-content {
+    footer .footer-content {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -644,6 +652,11 @@ input[type=button] {
       line-height: 1.285;
     }
 
+    footer .social-icons {
+      width: 12.5em;
+      justify-content: space-between;
+    }
+
     footer .copyright {
       width: 100%;
     }
@@ -661,6 +674,10 @@ input[type=button] {
 
     .mission-content p {
       width: 45%;
+    }
+
+    .map figure {
+      padding-bottom: 45.5%;
     }
 
     .contact-section .content-wrapper h2 {
@@ -733,6 +750,7 @@ input[type=button] {
     /* Hero */
         
     .hero-area h1 {
+      font-size: 3.75em;
       width: 80%;
     }
      
@@ -744,7 +762,7 @@ input[type=button] {
    
     aside .content-wrapper .form-description,
     aside .content-wrapper .form {
-       width: 30%;
+       width: 40%;
     }
 
     .form-description p {
@@ -777,7 +795,11 @@ input[type=button] {
 /* ==========================================================================
  About Page
  ========================================================================== */
-  .mission h2,
+ .map figure {
+    padding-bottom: 37.5%;
+  }
+ 
+ .mission h2,
   .contact-section .content-wrapper h2 {
       width: 95%;
       font-size: 3em;
